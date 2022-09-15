@@ -36,3 +36,7 @@ Once all tests are passing, you should address the `TODO` comments in the `main`
 ```
 python3 irc.py
 ```
+
+If your application is working correctly it should look like the following after a few moments:
+
+![App screenshot](media/screenshot.png)
