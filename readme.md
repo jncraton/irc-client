@@ -7,6 +7,15 @@ The original [IRC RFC 1459](https://www.rfc-editor.org/rfc/rfc1459) may be a hel
 
 Once complete, this application should automatically connect to the "#andersonu" IRC channel on `irc.libera.chat`. You can also interact with this room via the [Libera web client](https://web.libera.chat/) to confirm that your program works as expected.
 
+Dependencies
+------------
+
+This project depends on PySimpleGUI to create a graphical application. If you have `pip` installed properly and available in your path, you should be able to install PySimpleGUI by running:
+
+```
+pip3 install -r requirements.txt
+```
+
 Testing
 -------
 
@@ -20,4 +29,10 @@ Or if make is available:
 
 ```
 make
+```
+
+Once all tests are passing, you should address the `TODO` comments in the `main` function. If these have been completed correctly, you should be able to run your program with the following command:
+
+```
+python3 irc.py
 ```
