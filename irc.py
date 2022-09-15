@@ -23,7 +23,7 @@ def get_join_bytes(channel):
     b'\\r\\n'
     """
 
-    return b''
+    return b""
 
 
 def get_message_bytes(receiver, message):
@@ -59,8 +59,7 @@ def get_message_bytes(receiver, message):
     b':message\\r\\n'
     """
 
-    return b''
-
+    return b""
 
 
 def get_registration_bytes(user, password):
@@ -116,7 +115,7 @@ def get_registration_bytes(user, password):
     b'\\r\\n'
     """
 
-    return b''
+    return b""
 
 
 def main():
