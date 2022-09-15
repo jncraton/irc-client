@@ -78,9 +78,6 @@ def get_registration_bytes(user, password):
     `servername` information. "0" should be sent for the `hostname` with
     "*" being used for the `servername`.
 
-    https://stackoverflow.com/questions/31666247/what-is-the-difference-between-the-nick-username-and-real-name-in-irc-and-wha
-
-
     >>> len(get_registration_bytes("user", "pass").splitlines())
     3
 
