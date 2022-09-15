@@ -41,4 +41,4 @@ If your application is working correctly it should look like the following after
 
 ![App screenshot](media/screenshot.png)
 
-You should then be able to successfully send and receive message with the `#andersonu` channel on Libera.
+You should then be able to successfully send and receive messages with the `#andersonu` channel on Libera.
