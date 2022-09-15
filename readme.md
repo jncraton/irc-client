@@ -40,3 +40,5 @@ python3 irc.py
 If your application is working correctly it should look like the following after a few moments:
 
 ![App screenshot](media/screenshot.png)
+
+You should then be able to successfully send and receive message with the `#andersonu` channel on Libera.
