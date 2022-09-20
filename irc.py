@@ -55,8 +55,8 @@ def get_message_bytes(receiver, message):
     >>> get_message_bytes("user", "message")[-2:]
     b'\\r\\n'
 
-    >>> get_message_bytes("user", "message")[-10:]
-    b':message\\r\\n'
+    >>> get_message_bytes("user", "message")[-11:]
+    b' :message\\r\\n'
     """
 
     return b""
@@ -96,8 +96,8 @@ def get_registration_bytes(user, password):
     >>> get_registration_bytes("user", "pass").splitlines()[2][:4]
     b'USER'
 
-    >>> get_registration_bytes("jordan", "pass").splitlines()[2][-6:]
-    b'jordan'
+    >>> get_registration_bytes("jordan", "pass").splitlines()[2][-8:]
+    b' :jordan'
 
     >>> get_registration_bytes("beth", "pass").splitlines()[2][-4:]
     b'beth'
